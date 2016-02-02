@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true"
+    android:background="@color/mint"
+    android:gravity="center" >
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="8">
+
+        <ImageButton
+            android:id="@+id/addmenufooter"
+            android:background="@color/transparent"
+            android:src="@drawable/page_footer_add"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="start"/>
+
+        <ImageButton
+            android:id="@+id/viewdocfooter"
+            android:background="@color/transparent"
+            android:src="@drawable/page_footer_doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"/>
+
+        <ImageButton
+            android:id="@+id/viewappfooter"
+            android:layout_gravity="end"
+            android:layout_height="25dp"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_width="25dp"
+            android:src = "@drawable/page_footer_appointment"
+            android:background="@color/transparent"
+            android:layout_marginStart="90dp"/>
+
+        <ImageButton
+            android:id="@+id/searchdocfooter"
+            android:background="@color/transparent"
+            android:src="@drawable/page_listdoc_search"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="55dp"
+            android:paddingTop="3dp"/>
+
+        <ImageButton
+            android:id="@+id/viewproffooter"
+            android:background="@color/transparent"
+            android:src="@drawable/page_footer_user"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:paddingLeft="50dp"
+            android:layout_margin="0dp"
+            android:paddingTop="3dp"/>
+
+
+    </GridLayout>
+
+</RelativeLayout>

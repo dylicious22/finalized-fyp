@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="doc_name">
+        <item>John Smith</item>
+        <item>Sarah Hart</item>
+        <item>Alex Goot</item>
+        <item>Eric Liang</item>
+        <item>Kevin Chung</item>
+        <item>Julian Cohen</item>
+        <item>Janet Cowley</item>
+        <item>Bree Cowley</item>
+        <item>Dan Cowley</item>
+        <item>Edwin Cowley</item>
+    </string-array>
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/dylicious/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.20.0/5673179575c32b69a474334255c3044adf18d40/google-api-client-android-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="05673179575c32b69a474334255c3044adf18d40">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/google-api-client-android-1.20.0-bf40a7f32f001834110246f078904f83db8b001b.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.20.0/2408070b2abec043624d35b35e30450f1b663858/google-http-client-jackson2-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2408070b2abec043624d35b35e30450f1b663858">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/google-http-client-jackson2-1.20.0-42c3cdcc99fad5baf3b2573c3813a093b70e8b23.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.20.0/d3e66209ae9e749b2d6833761e7885f60f285564/google-api-client-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d3e66209ae9e749b2d6833761e7885f60f285564">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/google-api-client-1.20.0-a2bf32e39e13b2b69be77181d9b4d96c69115e4a.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/exploded-aar/com.github.satyan/sugar/1.3.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d59de211e85bc8c7f75c7a4890d229ff8c4dab87">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/classes-beb9beba1fafbe8266f55dffe197b4c065f9f4e5.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.20.0/93d82db2bca534960253f43424b2ba9d7638b4d2/google-http-client-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="93d82db2bca534960253f43424b2ba9d7638b4d2">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/google-http-client-1.20.0-13a56ac3773b53c20be9f5d0fa48ab0487d27dc2.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-92aca371ba7a21fcb285fee9cf49dd8e3804d0f8.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-ea1ddf4cc1dcca887d9104c74d70002499a5f3e5.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-gson/1.20.0/9204765f39000f6109c927ac66c7963bf9c7df19/google-http-client-gson-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9204765f39000f6109c927ac66c7963bf9c7df19">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/google-http-client-gson-1.20.0-27251f22eca1ab406e694cd9d41a28e4b5ee1963.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3-7641d88d3fe3225461ff0414d622b22b1090426a.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/guava-jdk5-13.0-7ab9509deb0bc1d08d8630c936ebe7b5f3270173.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.1/2e66da15851f9f5b5079228f856c2f090ba98c38/gson-2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/gson-2.1-27fe4073a73bdf2f749d6def31a3b56c0c6218bf.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9-029a68b0f41cc7925b517b71ddd242dd8d7abb5b.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-calendar/v3-rev125-1.20.0/fef496f895ad5be86416863153d4efbf7b601f8a/google-api-services-calendar-v3-rev125-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fef496f895ad5be86416863153d4efbf7b601f8a">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/google-api-services-calendar-v3-rev125-1.20.0-33b80ade79abfd17896eea9b4e7a6a83f7d62c57.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.20.0/313dc99a7963523871495897ca11aa8472b3c6fd/google-http-client-android-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="313dc99a7963523871495897ca11aa8472b3c6fd">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/google-http-client-android-1.20.0-a9dbc6c8d5276eb4a16f1efab9960a0644dcbb6b.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/classes-4129a81c9cdb1fd8f6b31b5c1384a1ba8e2aaffc.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/classes-69392000132964653d8799e1b30bf13448b54ced.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.20.0/1d086ac5756475ddf451af2e2df6e288d18608ca/google-oauth-client-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.20.0-8bd6a60992d903ff1c345f65a379a8ad15b848b7.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-gson/1.20.0/ace1924800ca8c256f6a3f63e72ee13e1b458d36/google-api-client-gson-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ace1924800ca8c256f6a3f63e72ee13e1b458d36">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/google-api-client-gson-1.20.0-778ea2b45e726f05c273d531e0a6654c6f19ada7.jar" />
+    </item>
+    <item
+        jar="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/dylicious/MYDOCTORS_CALL/app/build/intermediates/pre-dexed/debug/classes-142f7fdfb3d9fce6c6f1d4feb97b9d60d031d49a.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/mint"
+    tools:context="com.example.dylicious.mydoctors.OnBoardingGuide2">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:src="@drawable/page_viewdoc_loc"
+            android:layout_gravity="end"
+            android:layout_marginTop="7dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search doctors via locations"
+            android:layout_gravity="start"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_columnSpan="3"/>
+
+    </GridLayout>
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="381dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="74dp"
+        android:src="@drawable/page_onboardingguide_5"
+        />
+
+    <Button
+        android:id="@+id/StartingPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:text="Next"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

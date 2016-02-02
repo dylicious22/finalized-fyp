@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="20dp"
+    android:orientation="vertical"
+    android:background="@color/mint"
+    tools:context="com.example.dylicious.mydoctors.OnBoardingGuide2">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="381dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="74dp"
+        android:src="@drawable/page_starting"
+        />
+    <Button
+        android:id="@+id/AddingPage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="ENTER"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dylicious.mydoctors" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="DATABASE"
+            android:value="sugar_example.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.example" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewDocActivity"
+            android:label="@string/title_activity_view_doc" >
+        </activity>
+        <activity
+            android:name=".ViewDoctorProf"
+            android:label="@string/title_activity_view_doctor_prof" >
+        </activity>
+        <activity
+            android:name=".StorePatientProfile"
+            android:label="@string/title_activity_store_patient_profile" >
+        </activity>
+        <activity
+            android:name=".ViewPatientProfile"
+            android:label="@string/title_activity_view_patient_profile" >
+        </activity>
+        <activity
+            android:name=".OnBoardingGuide"
+            android:label="@string/title_activity_on_boarding_guide" >
+        </activity>
+        <activity
+            android:name=".OnBoardingGuide2"
+            android:label="@string/title_activity_on_boarding_guide2" >
+        </activity>
+        <activity
+            android:name=".OnBoardingGuide3"
+            android:label="@string/title_activity_on_boarding_guide3" >
+        </activity>
+        <activity
+            android:name=".StartingPage"
+            android:label="@string/title_activity_starting_page" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".AddMenu"
+            android:label="@string/title_activity_add_menu" >
+        </activity>
+        <activity
+            android:name=".DoctorList"
+            android:label="@string/title_activity_doctor_list" >
+        </activity>
+        <activity
+            android:name=".SearchPlaces"
+            android:label="@string/title_activity_search_places" >
+        </activity>
+        <activity
+            android:name=".ClinicList"
+            android:label="@string/title_activity_clinic_list"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".EditDoctor"
+            android:label="@string/title_activity_edit_doctor" >
+        </activity>
+        <activity
+            android:name=".UserList"
+            android:label="@string/title_activity_user_list" >
+        </activity>
+        <activity
+            android:name=".EditUser"
+            android:label="@string/title_activity_edit_user" >
+        </activity>
+    </application>
+
+</manifest>

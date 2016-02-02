@@ -1,0 +1,191 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/white"
+    tools:context="com.example.dylicious.mydoctors.ViewDocActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doc_name"
+        android:paddingTop="5dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/docname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textStyle="italic"
+        android:hint="@string/doc_name_hint"
+        android:textSize="15sp"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doc_address"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/docadd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textStyle="italic"
+        android:hint="@string/doc_address_hint"
+        android:inputType="textMultiLine"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doc_locname"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+
+    <AutoCompleteTextView
+        android:id="@+id/docloc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textStyle="italic"
+        android:hint="e.g State"
+        android:inputType="textMultiLine"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doc_specialty"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/docspecialty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textStyle="italic"
+        android:hint="@string/doc_specialty_hint"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doc_phone"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/docnum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:hint="@string/doc_phone_hint"
+        android:paddingTop="5dp"
+        android:inputType="phone"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultation Time"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Time:"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/doctime"
+            android:clickable="true"
+            android:focusable="false"
+            android:layout_columnSpan="3"
+            android:textSize="15sp"
+            />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Time:  "
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/docendtime"
+            android:clickable="true"
+            android:focusable="false"
+            android:textSize="15sp"/>
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Notes/Remarks"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Not more than 20 words..."
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:id="@+id/docremarks"
+        android:inputType="textMultiLine"/>
+
+    <Button
+        android:id="@+id/proceed2"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:text="Proceed to Next Page"
+        android:background="@color/mint"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
+
+
+</ScrollView>

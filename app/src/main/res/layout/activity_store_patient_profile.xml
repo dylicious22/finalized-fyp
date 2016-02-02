@@ -1,0 +1,101 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/white"
+    tools:context="com.example.dylicious.mydoctors.StorePatientProfile">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_name"
+            android:paddingTop="50dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/patname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:paddingTop="5dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_med"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/patmed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:hint="Enter None if there's no medications taken"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_treatment"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+
+        <AutoCompleteTextView
+            android:id="@+id/pattreatment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:hint="Enter None if there's no treatment received"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_allergy"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/patallergy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:hint="Enter None if there's no allergy"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/savepat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Save"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

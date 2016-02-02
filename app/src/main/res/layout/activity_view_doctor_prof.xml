@@ -1,0 +1,271 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.dylicious.mydoctors.ViewDocActivity">
+
+    <include layout="@layout/footer" />
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            tools:context="com.example.dylicious.mydoctors.ViewDocActivity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id = "@+id/docidview"
+                android:visibility="gone"/>
+
+            <ImageButton
+                android:id="@+id/editDoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/page_viewpat_edit"
+                android:background="@color/transparent"
+                android:layout_gravity="left"
+                android:layout_marginLeft="300dp"/>
+
+            <GridLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="4"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/page_viewdoc_name"/>
+
+                <TextView
+                    android:id="@+id/docnameview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Dr. Carlisle"
+                    android:layout_columnSpan="3"
+                    android:layout_marginLeft="20dp"/>
+
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/docspecialtyview"
+                android:text = "General Physician"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <View android:id="@+id/separator"
+                android:background="@color/black"
+                android:layout_width = "fill_parent"
+                android:layout_height="1dip"
+                android:layout_centerVertical ="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Details"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <GridLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="4"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/page_viewdoc_loc"/>
+
+                <TextView
+                    android:id="@+id/doclocview"
+                    android:text="Melaka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_columnSpan="3"
+                    android:layout_marginLeft="20dp"/>
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="4"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp">
+
+
+                <ImageView
+                    android:src="@drawable/page_viewdoc_call"
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"/>
+
+                <TextView
+                    android:id="@+id/docnumview"
+                    android:text="06-9398118"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:textStyle="italic"
+                    android:textColor="#0DB55E"
+                    android:textSize="20sp"
+                    android:layout_columnSpan="3"
+                    android:layout_marginLeft="20dp"/>
+            </GridLayout>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/page_viewdoc_add"/>
+
+            <TextView
+                android:id="@+id/docaddview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textColor="#10B2E8"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Jalan Bukit Beruang, Ayer Keroh, 75450 Melaka"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/doc_consulthours"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"/>
+
+
+            <GridLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="4"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/page_viewdoc_time"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text = "Start Time"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/docConsultStartTimeView"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_columnSpan="2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/docconsulttimeview"/>
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="4"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/page_viewdoc_time"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text = "End Time"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/docConsultEndTime"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_columnSpan="2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/docconsultendtimeview"/>
+
+            </GridLayout>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/page_viewdoc_remarks"/>
+
+            <TextView
+                android:id="@+id/docremarksview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:layout_marginTop="10dp"
+                android:text="Awesome doctor!"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/deleteDoc"
+                android:text="Delete"
+                android:layout_marginTop="9dp"
+                />
+
+
+        </LinearLayout>
+
+</RelativeLayout>
